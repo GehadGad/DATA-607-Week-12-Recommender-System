@@ -1,0 +1,112 @@
+---
+title: "Facebook Recommender System Analysis"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Gehad Gad
+
+## 4/13/2020
+
+
+ 
+# ***Introduction***
+
+### What is a recommender system?
+
+A recommender system is a filtering tool that analyzes historical data to predict what users will be interested in. Recommender systems are not only used on e-commerce websites such as Amazon, E-bay, Alibaba, etc. In fact, social media websites such as Facebook, Instagram and also dating websites use recommendation systems to decide which post to display in your timeline and which new friends to recommend to you.
+
+### What are the types of recommender systems?
+
+1. Collaborative filtering: recommendations are provided based on the similarity between users and each other’s.
+
+2. Content-based filtering: recommendations are provided based on the similarity of an item to other items.
+
+3. Hybrid recommendation system: demonstration of similarities between users and their content.
+
+
+### How does a recommendation engine work?
+
+1. Collection of data
+
+2. Storing the data
+
+3. Analyzing the data
+
+4. Filtering the data
+
+### Benefits of Recommender Systems:
+
+1. Create more traffic and interaction between users.
+
+2. Provide related/relevant posts, materials based on users information.
+
+3. Increase customer satisfaction.
+
+4. Increase revenue due to marketing effeciency. As modern marketing is all about data.
+
+
+# ***Facebook***
+
+***Facebook*** is the most popular social network worldwide With over 2.4 billion monthly active users.It is resposible for connecting people with each other all over the world. Facebook has a Marketplace, a convenient way to discover, buy and sell items with people in our community or neighborhood. More than 450 million people visit buy and sell groups each month — from families and neighborhood to other people all over the world.
+
+
+# ***Facebook Recommender system***   
+
+***Facebook*** uses ***Collaborative Filtering*** to recommend people you might know, display ads based on your posts, jobs you might like, groups you might want to follow, or companies you might be interested in.
+
+***Facebook*** also uses ***Apache Giraph*** to analyze the social graph formed by users and their connections. Apache Giraph is an iterative graph processing system built for high scalability. 
+
+
+
+# ***Scenario Design***
+
+### Who are your target users?
+Facebook audience is basically all people all over the world. Facebook can target those users or followers by many ways include: locations, interests, demographical information such as age, gender, etc. 
+
+### What are their key goals?
+Facebook’s first goal was to gain customer satisfaction by: 
+
+1- connecting users with their friends and family.  
+
+2- The key goal for Facebook marketplace is to provide and recommend products and services to users. 
+
+3- Showing Sponsored ads to users based on  their interests. 
+
+### How can you help them accomplish those goals?
+
+Since each electronic device has location detectors, this can help Facebook to recommend families and coworkers by using these detectors to determine if the user is living or working in the same place with other users based on working hours/family times. 
+
+
+# ***Reverse Engineering***
+
+***Reverse Engineering*** is a technique used to analyze an existing system or product and make new and compatible product what might be more effective. 
+Examples of reverse Engineering:
+Reverse-engineered Facebook’s face tagging and ads. 
+Reverse engineering Facebook API to download public video.
+
+
+# ***Recommendation to Improve Facebook’s recommender system***
+
+1. Facebook should pay close attention to the information posted on user's accounts more than the validity of the account in itself. 
+False information on user's account information in some emerging countries/markets cause a huge problem in reaching ads.
+
+2. Recommendation of new friends should not be based on check in places. It should be based on user's location or city. 
+
+3. Use key words to identify and filter people's interests. This will help the recommendation in more accurate way. For example, Some people like pages but they don't have a strong interest in the page content. Also, often, we pages or groups ads appear to us just because some of our friends liked that page or group. 
+
+4. The excess amount of groups on FB should be limited. 
+
+
+
+
+# ***References*** 
+
+1. https://engineering.fb.com/core-data/recommending-items-to-more-than-a-billion-people/
+
+2. https://towardsdatascience.com/what-are-product-recommendation-engines-and-the-various-versions-of-them-9dcab4ee26d5
+
+
+
